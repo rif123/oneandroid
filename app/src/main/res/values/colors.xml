@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1EB11D</color>
+    <color name="colorPrimaryDark">#7BB539</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="burn_white">#fefefe</color>
+
+
+
+
+    <color name="splash_start">#903339</color>
+    <color name="splash_end">#e7383f</color>
+
+</resources>

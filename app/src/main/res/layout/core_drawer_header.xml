@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="126dp"
+    android:background="@color/colorPrimary">
+
+    <id.pastakangen.com.pastakangen.costum_overwrite.CustomTextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textColor="@color/colorWhite"
+        app:font_name="bold"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_normal"
+        android:text="@string/drawer_place_holder"
+        android:gravity="bottom"
+        android:paddingLeft="18dp"
+        android:paddingBottom="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:paddingRight="20dp"
+        android:paddingLeft="18dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="25dp"
+        android:background="@drawable/bg_menu_drawer_gradien"
+        android:weightSum="5"
+        >
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:backgroundTint="@color/colorWhite"
+            android:backgroundTintMode="screen"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/poin2x_white" />
+
+        <id.pastakangen.com.pastakangen.costum_overwrite.CustomTextView
+            android:id="@+id/tv_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/padding_small"
+            android:paddingRight="10dp"
+            android:text="@string/drawer_poin_placeholder"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            app:font_name="bold"/>
+
+        <Button
+            android:id="@+id/btn_redeem"
+            style="@style/Core.Button.White.Transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/drawer_reedem_placeholder"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+
+
+
+</LinearLayout>

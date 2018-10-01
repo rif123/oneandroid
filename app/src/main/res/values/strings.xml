@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">pastakangen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="home_title">Pasta Kangen</string>
+
+    <string name="drawer_place_holder">Rifky</string>
+    <string name="drawer_poin_placeholder">4,250 poin</string>
+    <string name="drawer_reedem_placeholder">Redem</string>
+
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+
+    <!-- DrawerNav -->
+    <string name="nav_home">BERANDA</string>
+    <string name="nav_redeem_catalog">REDEEM CATALOG</string>
+    <string name="nav_evoucher">E-VOUCHER</string>
+    <string name="nav_privileges">MERCHANTS</string>
+    <string name="nav_membership">KEANGGOTAAN SAYA</string>
+    <string name="nav_payment">PAYMENT</string>
+    <string name="nav_location">LOKASI TOKO RAMAYANA</string>
+    <string name="nav_invite">UNDANG TEMAN</string>
+    <string name="nav_contactus">HUBUNGI KAMI</string>
+    <string name="nav_setting">PENGATURAN</string>
+    <string name="nav_logout">LOG OUT</string>
+    <string name="nav_name_placeholder">Jane Doe</string>
+    <string name="nav_poin_placeholder">4,250 poin</string>
+    <string name="nav_redeem">Redeem</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--GLobal Search-->
+    <string name="search_placeholder">Search</string>
+
+</resources>

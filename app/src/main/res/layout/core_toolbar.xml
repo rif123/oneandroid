@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/core_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    app:titleTextColor="@color/colorPrimaryDark"
+    >
+
+
+    <id.pastakangen.com.pastakangen.costum_overwrite.CustomTextView
+        android:id="@+id/tv_menu_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        app:font_name="bold"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_size_normal" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_design"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/searchbar_margin"
+        android:paddingLeft="@dimen/searchbar_margin"
+        android:paddingTop="@dimen/searchbar_margin"
+        android:paddingBottom="@dimen/searchbar_margin">
+        <TextView
+            android:id="@+id/global_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/search_placeholder" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
